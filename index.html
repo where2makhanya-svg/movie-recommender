@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🎬 Movie Recommender</h1>
+
+    <label>Choose Genre:</label>
+    <select id="genre">
+        <option value="action">Action</option>
+        <option value="comedy">Comedy</option>
+        <option value="romance">Romance</option>
+        <option value="sci-fi">Sci‑Fi</option>
+    </select>
+
+    <label>Choose Mood:</label>
+    <select id="mood">
+        <option value="fun">Fun</option>
+        <option value="deep">Deep</option>
+        <option value="exciting">Exciting</option>
+    </select>
+
+    <button onclick="recommendMovie()">Get Recommendation</button>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
